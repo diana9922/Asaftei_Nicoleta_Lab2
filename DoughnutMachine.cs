@@ -50,6 +50,8 @@ namespace Asaftei_Nicoleta_Lab2
             mDoughnuts.Add(aDoughnut);
             DoughnutComplete();
         }
+
+
         public bool Enabled
         {
             set
@@ -128,6 +130,7 @@ namespace Asaftei_Nicoleta_Lab2
             mTimeOfCreation = DateTime.Now;
             mFlavor = aFlavor;
         }
+
     }
 
 }
